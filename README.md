@@ -1,6 +1,4 @@
 # UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation [NeurIPS 2024]
-[[Project Page]] [[Arxiv]] 
-
 Code is coming soon. Thanks for your attention and patience.
 
 ## Abstract
