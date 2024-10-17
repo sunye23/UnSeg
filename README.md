@@ -12,7 +12,7 @@ Image segmentation is a crucial vision task that groups pixels within an image i
 
 * **[2024/10/13]** Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
 
-### Citation
+## Citation
 If you find UnSeg useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @article{sun2024unseg,
