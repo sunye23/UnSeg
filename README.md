@@ -7,10 +7,10 @@ Image segmentation is a crucial vision task that groups pixels within an image i
   <img src="UnSeg.png" width="700"/>
 </p>
 
-## :fire: News
-[TODO] Code is coming soon. Thanks for your attention and patience.
+## :rocket: Updates
+* **[TODO]** Code is coming soon. Thanks for your attention and patience.
 
-[2024/10/13] Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
+* **[2024/10/13]** Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
 
 ### Citation
 If you find UnSeg useful for your research and applications, please cite using this BibTeX:
