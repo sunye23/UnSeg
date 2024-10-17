@@ -9,4 +9,4 @@ Image segmentation is a crucial vision task that groups pixels within an image i
 </p>
 
 ## :fire: News
-[2024/10/13] Our paper is available in [[[Arxiv](https://arxiv.org/abs/2410.09909)].
+[2024/10/13] Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
