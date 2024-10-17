@@ -1,5 +1,4 @@
 # UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation [NeurIPS 2024]
-Code is coming soon. Thanks for your attention and patience.
 
 ## Abstract
 
@@ -9,6 +8,6 @@ Image segmentation is a crucial vision task that groups pixels within an image i
 </p>
 
 ## :fire: News
-[TODO] Release the code.
+[TODO] Code is coming soon. Thanks for your attention and patience.
 
 [2024/10/13] Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
