@@ -11,3 +11,14 @@ Image segmentation is a crucial vision task that groups pixels within an image i
 [TODO] Code is coming soon. Thanks for your attention and patience.
 
 [2024/10/13] Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
+
+### Citation
+If you find UnSeg useful for your research and applications, please cite using this BibTeX:
+```bibtex
+@article{sun2024unseg,
+  title={UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation},
+  author={Sun, Ye and Zhang, Hao and Zhang, Tiehua and Ma, Xingjun and Jiang, Yu-Gang},
+  journal={arXiv preprint arXiv:2410.09909},
+  year={2024}
+}
+```
