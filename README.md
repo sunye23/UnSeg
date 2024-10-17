@@ -7,3 +7,6 @@ Image segmentation is a crucial vision task that groups pixels within an image i
 <p align="center">
   <img src="UnSeg.png" width="700"/>
 </p>
+
+## :fire: News
+[2024/10/13] Our paper is available in [Arxiv(https://arxiv.org/abs/2410.09909)].
