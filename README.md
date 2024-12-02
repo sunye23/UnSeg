@@ -8,7 +8,7 @@ Image segmentation is a crucial vision task that groups pixels within an image i
 </p>
 
 ## :rocket: Updates
-* **[TODO]** Code will be available soon (before December). Thanks for your attention and patience.
+* **[2024/12/2]** Code will be available (Contact: yesun23@m.fudan.edu.cn). Thanks for your attention and patience.
 
 * **[2024/10/13]** Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
 
