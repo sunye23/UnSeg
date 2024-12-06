@@ -1,7 +1,7 @@
 # UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation [NeurIPS 2024]
 
 ## :rocket: Updates
-* **[2024/12/3]** Code will be available ( We were informed that the approval process for open-sourcing our code is lengthy. 🔥 Contact: yesun23@m.fudan.edu.cn). Thanks for your attention and patience.
+* **[2024/12/3]** Code will be available ( We were informed that the approval process for open-sourcing our code is lengthy. **🔥 If you need our code for experiments, please contact: yesun23@m.fudan.edu.cn**). Thanks for your attention and patience.
 
 * **[2024/10/13]** Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
   
