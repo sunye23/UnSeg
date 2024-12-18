@@ -1,21 +1,3 @@
-# UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation [NeurIPS 2024]
-
-## :rocket: Updates
-* **[2024/12/18]** Our code and models have been released. 
-
-* **[2024/12/11]** We were informed that the approval process for open-sourcing our code is lengthy. **🔥 If you need our code for experiments, please feel free to contact: yesun23@m.fudan.edu.cn**.
-
-* **[2024/12/3]** Code will be available. Thanks for your attention and patience.
-
-* **[2024/10/13]** Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
-  
-## Abstract
-
-Image segmentation is a crucial vision task that groups pixels within an image into semantically meaningful segments, which is pivotal in obtaining a fine-grained understanding of real-world scenes. However, an increasing privacy concern exists regarding training large-scale image segmentation models on unauthorized private data. In this work, we exploit the concept of unlearnable examples to make images unusable to model training by generating and adding unlearnable noise into the original images. Particularly, we propose a novel Unlearnable Segmentation (UnSeg) framework to train a universal unlearnable noise generator that is capable of transforming any downstream images into their unlearnable version. The unlearnable noise generator is finetuned from the Segment Anything Model (SAM) via bilevel optimization on an interactive segmentation dataset towards minimizing the training error of a surrogate model that shares the same architecture with SAM but is trained from scratch. We empirically verify the effectiveness of UnSeg across 6 mainstream image segmentation tasks, 10 widely used datasets, and 7 different network architectures, and show that the unlearnable images can reduce the segmentation performance by a large margin. Our work provides useful insights into how to leverage foundation models in a data-efficient and computationally affordable manner to protect images against image segmentation models. 
-<p align="center">
-  <img src="UnSeg.png" width="700"/>
-</p>
-
 
 ## 1. Installation
 Clone this repository and navigate to project folder
@@ -25,7 +7,7 @@ git clone https://github.com/sunye23/UnSeg.git
 cd UnSeg
 ```
 
-Quick Installation
+Quick Installation **(Ensure your CUDA version is correct before installation; we use torch==1.13.1+cu117.)**
 
 ```Shell
 conda create --name unseg python=3.8 -y
@@ -97,8 +79,6 @@ UEs generation is based on RTX3090 x 8.
 
 Before generating ues, place the clean images and the corresponding groundtruths in the correct directory. For the datasets such as coco, cityscapes, and ade20k, please refer to [Mask2former](https://github.com/facebookresearch/Mask2Former) for data preparation. 
 
-**🔥TIPs: UnSeg can also generate UEs for other image segmentation datasets easily. Simply modify the code in the generation directory, place the images and their corresponding object masks in the correct paths, and then run the scripts.**
-
 Here we only provide the download guidance for the pascal voc dataset.
 
 <details>
@@ -162,7 +142,7 @@ bash scripts/generate_medical.sh
 ```
 ## 6. Evaluation
 
-For the DeepLabv1 evaluation, we mainly employ the code provided by [MCTFormer](https://github.com/xulianuwa/MCTformer). You should follow the work to prepare the weights and environments. We also provide the code and the script under the eval dir. You could use the command below:
+For the DeepLabv1 evaluation, we mainly employ the code provided by [MCTFormer](https://github.com/xulianuwa/MCTformer). You should follow the work to prepare the weights and environments. We also provide the code and the script under the eval dir. You could the command following:
 ```Shell
 bash eval/run_seg.sh
 ```
@@ -176,9 +156,8 @@ For remote sensing evaluation, please refer to [Rsprompter](https://github.com/K
 For medical image segmentation evaluation, our code is based on the **segmentation_models_pytorch** codebase.
 
 For object detection evaluation, please refer to [DINO](https://github.com/IDEA-Research/DINO).
-
 ## Citation
-**If you find UnSeg useful for your research and applications, please kindly cite using this BibTeX:**
+If you find UnSeg useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @inproceedings{sun2024unseg,
   title={UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation},
