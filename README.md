@@ -19,11 +19,11 @@ Image segmentation is a crucial vision task that groups pixels within an image i
 Clone this repository and navigate to project folder
 
 ```bash
-git clone https://github.com/sunye23/Temporary_Project.git
-cd Temporary_Project
+git clone https://github.com/sunye23/UnSeg.git
+cd UnSeg
 ```
 
-Quick Installation **(Ensure your CUDA version is correct before installation; we use torch==1.13.1+cu117.)**
+Quick Installation
 
 ```Shell
 conda create --name unseg python=3.8 -y
