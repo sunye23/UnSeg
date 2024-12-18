@@ -7,7 +7,7 @@
 
 * **[2024/12/3]** Code will be available. Thanks for your attention and patience.
 
-* **[2024/10/13]** Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].
+* **[2024/10/13]** Our paper is available in [[Arxiv](https://arxiv.org/abs/2410.09909)].[[Slides](https://neurips.cc/media/neurips-2024/Slides/94443_mIwu3xw.pdf)]
   
 ## Abstract
 
