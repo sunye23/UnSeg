@@ -95,6 +95,7 @@ UEs generation is based on RTX3090 x 8.
 
 Before generating ues, place the clean images and the corresponding groundtruths in the correct directory. For the datasets such as coco, cityscapes, and ade20k, please refer to [Mask2former](https://github.com/facebookresearch/Mask2Former) for data preparation. 
 
+**🔥TIPs: UnSeg can also generate UEs for other image segmentation datasets easily. Simply modify the code in the generation directory, place the images and their corresponding object masks in the correct paths, and then run the scripts.**
 Here we only provide the download guidance for the pascal voc dataset.
 
 <details>
