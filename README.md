@@ -81,7 +81,7 @@ data
 
 ## 3. Pretrained checkpoint Preparation
 
-Download the [model weight](https://pan.baidu.com/s/1cGmfyNAlbE3Z0NFjsCr92w?pwd=7dur ) here and put them into right dir.
+Download the model weight from [Baidu Netdisk](https://pan.baidu.com/s/1cGmfyNAlbE3Z0NFjsCr92w?pwd=7dur ) or [Google Drive](https://drive.google.com/file/d/1_EZiLo8oIEgyxjpVki71aP1vqQg1mSMq/view), and put them into right dir.
 
 ## 4. Training
 Model training is based on RTX3090 x 8.
