@@ -1,5 +1,16 @@
 # UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation [NeurIPS 2024]
 
+## Citation
+**If you find UnSeg useful for your research and applications, please kindly cite using this BibTeX:**
+```bibtex
+@inproceedings{sun2024unseg,
+  title={UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation},
+  author={Sun, Ye and Zhang, Hao and Zhang, Tiehua and Ma, Xingjun and Jiang, Yu-Gang},
+  booktitle={NeurIPS},
+  year={2024}
+}
+```
+
 ## :rocket: Updates
 * **[2024/12/18]** Our code and models have been released. If you have any questions, feel free to contact: yesun23@m.fudan.edu.cn
 
@@ -175,13 +186,4 @@ For medical image segmentation evaluation, our code is based on the **segmentati
 
 For object detection evaluation, please refer to [DINO](https://github.com/IDEA-Research/DINO).
 
-## Citation
-**If you find UnSeg useful for your research and applications, please kindly cite using this BibTeX:**
-```bibtex
-@inproceedings{sun2024unseg,
-  title={UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation},
-  author={Sun, Ye and Zhang, Hao and Zhang, Tiehua and Ma, Xingjun and Jiang, Yu-Gang},
-  booktitle={NeurIPS},
-  year={2024}
-}
-```
+
